@@ -1,0 +1,3 @@
+[submodule "submodules/ffrecord"]
+	path = submodules/ffrecord
+	url = https://github.com/HFAiLab/ffrecord.git
