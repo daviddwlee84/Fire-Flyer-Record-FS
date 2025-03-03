@@ -1,3 +1,15 @@
+# Manually install dependencies to build ffrecord
+# (which can leverage the mirror index better)
 setuptools
-pybind11
-ffrecord @ git+https://github.com/HFAiLab/ffrecord.git
+pybind11>2.8
+# Dependencies
+torch>=1.6
+tqdm
+
+# Failed to build wheel for ffrecord
+# ffrecord @ git+https://github.com/HFAiLab/ffrecord.git
+
+# Development
+ipython
+ipdb
+bpython
